@@ -70,16 +70,16 @@ function formatDate(date) {
 }
 function updateBackground(weatherType) {
 	const backgrounds = {
-		Clear: "images/clear.jpg",
-		Clouds: "images/clouds.jpg",
-		Haze: "images/clouds.jpg",
-		Rain: "images/rain.jpeg",
-		Thunderstorm: "images/thunder.jpg",
-		Sunny: "images/sunny.jpg",
-		Snow: "images/snow.jpg",
+		Clear: "clear.jpg",
+		Clouds: "clouds.jpg",
+		Haze: "clouds.jpg",
+		Rain: "rain.jpeg",
+		Thunderstorm: "thunder.jpg",
+		Sunny: "sunny.jpg",
+		Snow: "snow.jpg",
 	};
 	document.body.style.backgroundImage = `url(${
-		backgrounds[weatherType] || "images/clear.jpg"
+		backgrounds[weatherType] || "clear.jpg"
 	})`;
 }
 function clearWeatherDisplay() {
@@ -91,4 +91,5 @@ function clearWeatherDisplay() {
 	pHumidity.innerText = "";
 	pWind.innerText = "";
 	pPressure.innerText = "";
+
 }
