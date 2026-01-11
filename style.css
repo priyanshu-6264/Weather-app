@@ -1,0 +1,25 @@
+body{
+    background: url(images/clear.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.weather-container{
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+.info-card img {
+    width: 40px;
+    height: 40px;
+}
+
+.tagline {
+	color: #ffffff; /* White text for blue background */
+	font-style: italic; /* Elegant italic touch */
+	font-size: 1.2rem; /* Slightly smaller than the heading */
+	opacity: 0.85; /* Slight transparency for softness */
+	margin-top: 0.5rem;
+	margin-bottom: 1.5rem;
+}
